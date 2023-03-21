@@ -17,7 +17,7 @@ plugins {
 apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
-version = '1.0.2.1b'
+version = '1.0.2.1c'
 group = 'io.github.frenchntoasty'
 archivesBaseName = 'castaticnomixin'
 

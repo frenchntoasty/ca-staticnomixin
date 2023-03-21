@@ -23,7 +23,7 @@
     public class CAStaticnomixin {
         public static final String MODID = "castaticnomixin";
         public static final String NAME = "CA-Staticnomixin";
-        public static final String VERSION = "1.0.2.1b";
+        public static final String VERSION = "1.0.2.1c";
         @Mod.EventHandler
         public void init(FMLInitializationEvent event) {
 
@@ -107,9 +107,6 @@
                 Blocks.ICE.setTickRandomly(false);
                 Blocks.SNOW_LAYER.setTickRandomly(false);
                 Blocks.PACKED_ICE.setTickRandomly(false);
-                Blocks.WHEAT.setTickRandomly(false);
-                Blocks.RED_MUSHROOM.setTickRandomly(false);
-                Blocks.BROWN_MUSHROOM.setTickRandomly(false);
                 Blocks.YELLOW_FLOWER.setTickRandomly(false);
                 Blocks.RED_FLOWER.setTickRandomly(false);
                 Blocks.DEADBUSH.setTickRandomly(false);
